@@ -109,6 +109,22 @@ body {
   }
 }
 
+.language-switch {
+  margin-top: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 300px;
+
+  input, label {
+    cursor: pointer;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+}
+
 .convert-button {
   margin-top: 20px;
 

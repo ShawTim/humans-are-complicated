@@ -36,6 +36,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
   addBtnEvents(document.querySelector(".statement-container1"));
   addBtnEvents(document.querySelector(".statement-container2"));
 
+  const langSwitch = document.querySelectorAll("input[name=lang]");
+  [...langSwitch].forEach((lang) => {
+    lang.addEventListener("change", (e) => {
+      const statement1 = container.querySelector(".statement-container1 .statement");
+      const statement2 = container.querySelector(".statement-container2 .statement");
+      switch (e.target.value) {
+        case "en":
+          statement1.innerHTML = "Humans are complicated.\nThey do things dogs can't understand.";
+          statement2.innerHTML = "Like creating this template.";
+          break;
+        case "zh":
+          statement1.innerHTML = "人類很複雜\n他們時常會做出狗狗不明白的行為";
+          statement2.innerHTML = "像是搞出這個生成器";
+          break;
+      }
+      console.log(e);
+    });
+  });
+
   tippy(".image-container", {
     placement: "left",
     arrow: true,
