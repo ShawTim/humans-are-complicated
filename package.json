@@ -1,5 +1,5 @@
 {
-  "name": "buddha-style",
+  "name": "humans-are-complicated",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack -p",
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShawTim/buddha-style.git"
+    "url": "git+https://github.com/ShawTim/humans-are-complicated.git"
   },
   "author": "ShawTim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShawTim/buddha-style/issues"
+    "url": "https://github.com/ShawTim/humans-are-complicated/issues"
   },
-  "homepage": "https://github.com/ShawTim/buddha-style#readme",
+  "homepage": "https://github.com/ShawTim/humans-are-complicated#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

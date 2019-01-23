@@ -1,0 +1,134 @@
+body {
+  background: #4A6E60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Helvetica, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.image-container {
+  background-image: url(../images/dog.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  height: 680px;
+  color: whitesmoke;
+  font-weight: bold;
+
+  .statement-container1 {
+    position: absolute;
+    top: 255px;
+    width: 700px;
+    height: 95px;
+    
+    .statement {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 95px;
+      white-space: pre;
+      font-size: 16px;
+    }
+
+    .increase-btn {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      display: none;
+    }
+
+    .decrease-btn {
+      position: absolute;
+      bottom: 20px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      display: none;
+    }
+
+    &:hover {
+      .increase-btn {
+        display: block;
+      }
+
+      .decrease-btn {
+        display: block;
+      }
+    }
+  }
+
+  .statement-container2 {
+    position: absolute;
+    top: 625px;
+    width: 700px;
+    height: 60px;
+    
+    .statement {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 60px;
+      white-space: pre;
+      font-size: 16px;
+    }
+
+    .increase-btn {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+    }
+
+    .decrease-btn {
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+    }
+
+    &:hover {
+      .increase-btn {
+        display: block;
+      }
+
+      .decrease-btn {
+        display: block;
+      }
+    }
+  }
+}
+
+.convert-button {
+  margin-top: 20px;
+
+  button {
+    font-size: 1.5em;
+  }
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  span {
+    margin-left: 10px;
+  }
+}

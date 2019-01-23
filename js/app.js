@@ -1,3 +1,3 @@
-import '../css/buddha.scss';
+import '../css/dog.scss';
 
 import './main';

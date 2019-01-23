@@ -1,9 +1,9 @@
-# buddha-style
-佛系ＯＯ生成器
+# humans-are-complicated
+Humans are complicated. They do things dogs can't understand.
 
-See [demo](https://shawtim.github.io/buddha-style/) on Github page.
+See [demo](https://shawtim.github.io/humans-are-complicated/) on Github page.
 
-![Introduction](https://shawtim.github.io/buddha-style/intro.png)
+![Introduction](https://shawtim.github.io/humans-are-complicated/intro.png)
 
 ### Installation
 `npm i`
